@@ -1,0 +1,2 @@
+export const dynamic="force-dynamic";import DashboardShell from "@/components/DashboardShell";import LeafletMap from "@/components/map/LeafletMap";
+export default function Page(){return <DashboardShell title="Cartographie générale" subtitle="OpenStreetMap, satellite, limites administratives et points Epicollect"><div className="panel"><h2>Carte dynamique PSORE</h2><p style={{color:"#64748b"}}>Fonds OpenStreetMap et satellite. Limites Mali/Koulikoro et points réels Epicollect.</p><LeafletMap/></div></DashboardShell>}
